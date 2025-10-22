@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.png";
+import heroDashboard from "@/assets/acelucid-dashboard.png";
 
 const Hero = () => {
   const scrollToDemo = () => {
@@ -71,9 +71,6 @@ const Hero = () => {
             {/* Floating Elements */}
             <div className="absolute -top-6 -right-6 bg-success text-success-foreground px-6 py-3 rounded-full shadow-lg font-semibold animate-pulse">
               AI-Powered
-            </div>
-            <div className="absolute -bottom-6 -left-6 bg-card text-card-foreground px-6 py-3 rounded-full shadow-card border border-border">
-              Trusted by 500+ Companies
             </div>
           </div>
         </div>
